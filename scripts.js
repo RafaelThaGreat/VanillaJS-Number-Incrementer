@@ -23,3 +23,9 @@ function randomize() {
 function randomColors() {
     return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
+
+function process() {
+    incrementValue(); 
+    increaseFontSize('zeronumber', 2); 
+    randomize();
+}
