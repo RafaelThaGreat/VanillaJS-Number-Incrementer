@@ -1,36 +1,32 @@
-<<<<<<< HEAD
 body {
-    background-color: powderblue;
+    background-color: #FFEEDB;
+    font-family: 'Playfair Display', serif;
   }
   h1 {
-    color: blue;
+    color: #A777AF;
   }
   p {
-    color: red;
+    color: #605B56;
   }
   li {
-      color: black
+      color: #4C3B4D
   }
   input[type=text] {
-    background-color: powderblue;
+    background-color: #605B56;
     color: white;
     border: none;
-=======
-body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
-  li {
-      color: black
-  }
-  input[type=text] {
-    background-color: powderblue;
-    color: white;
-    border: none;
->>>>>>> e66036c627da60ebfc97ef93804e73df2d631e9c
+    text-align: center;
   } 
+  .wrapper {
+  display:grid;
+  grid-template-columns: 30% 30%; 
+  align-content: center;
+  }
+  .wrapper > div {
+    background-color: #eee;
+  }
+  .wrapper > div:nth-child(odd) {
+    background: #ddd;
+   
+
+  }
